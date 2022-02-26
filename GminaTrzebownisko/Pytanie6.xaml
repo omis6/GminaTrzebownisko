@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GminaTrzebownisko.Pytanie6">
+    <ContentPage.Content>
+        <StackLayout Margin="15"
+                 VerticalOptions="Center">
+            <Label
+             Margin="0,0,0,5"
+             FontSize="20"
+             Padding="0,0,0,5"               
+             Text="Most"
+             HorizontalTextAlignment="Center"
+             FontAttributes="Bold"/>
+            <Image
+             x:Name="mo"
+             Aspect="AspectFill"
+             HorizontalOptions="EndAndExpand"/>
+            <Label
+             Text="Autor: DronTrzebownisko.pl"
+             HorizontalTextAlignment="Center"/>
+            <Label
+             Margin="0,5,0,0"
+             Text="Pytanie 5"
+             FontAttributes="Bold"
+             FontSize="23"
+             HorizontalTextAlignment="Center"/>
+            <Label
+             FontSize="17"
+             Margin="0,2,0,5"
+             Text="Jakie miejscowości łączy most?"
+             HorizontalTextAlignment="Center"/>
+            <Button
+             x:Name="Pytanie_6_1"
+             Margin="10,0,10,0"
+             TextColor="White"
+             Text="Łukawiec - Łąka"
+             BackgroundColor="#02075d"
+             Clicked="Pytanie_6_1_Clicked"/>
+            <Button
+             x:Name="Pytanie_6_2"
+             Margin="10,0,10,0"
+             TextColor="White"
+             Text="Trzebownisko - Łąka"
+             BackgroundColor="#02075d"
+             Clicked="Pytanie_6_2_Clicked"/>
+            <Button
+             x:Name="Pytanie_6_3"
+             Margin="10,0,10,0"
+             TextColor="White"
+             Text="Nowa Wieś - Terliczka"
+             BackgroundColor="#02075d"
+             Clicked="Pytanie_6_3_Clicked"/>
+            <Button
+             x:Name="Pytanie_6_4"
+             Margin="10,0,10,0"
+             TextColor="White"
+             Text="Łukawiec - Wólka Podleśna"
+             BackgroundColor="#02075d"
+             Clicked="Pytanie_6_4_Clicked"/>
+            <Label
+             FontAttributes="Bold"
+             Padding="0,10,0,0"
+             Text="Ciekawostka"
+             HorizontalTextAlignment="Center"
+             FontSize="14"/>
+            <Label
+             Text="Na inwestycję gmina zdobyła 9 milionów złotych unijnego wsparcia."
+             HorizontalTextAlignment="Center"/>
+            <Label
+             Text="17 milionów wyłożyła ze swojego budżetu."
+             HorizontalTextAlignment="Center"/>
+            <Label
+             Text= "Most ma 136 metrów długości, chodniki, ścieżki rowerowe, 
+                parkingi, oświetlenie i całą infrastruktura drogową. "
+             Margin="0,0,0,10"
+             HorizontalTextAlignment="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

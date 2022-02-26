@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GminaTrzebownisko.Pytanie1">
+    <ContentPage.Content>
+        <StackLayout Margin="15"
+                 VerticalOptions="Center">
+            <Label
+             Margin="0,0,0,5"
+             FontSize="20"
+             Padding="0,0,0,5"               
+             Text="Zwiedzamy"
+             HorizontalTextAlignment="Center"
+             FontAttributes="Bold"/>
+            <Image
+             x:Name="Strona"
+             Aspect="AspectFill"
+             HorizontalOptions="EndAndExpand"/>
+            <Label
+             Text="Autor: DronTrzebownisko.pl"
+             HorizontalTextAlignment="Center"/>
+            <Label
+             Margin="0,5,0,0"
+             Text="Rozgrzewka"
+             FontAttributes="Bold"
+             FontSize="23"
+             HorizontalTextAlignment="Center"/>
+            <Label
+             FontSize="17"
+             Margin="0,2,0,5"
+             Text="W którym roku powstała strona DronTrzebownisko.PL?"
+             HorizontalTextAlignment="Center"/>
+            <Button
+             x:Name="Pytanie_1_1"
+             Margin="10,0,10,0"
+             TextColor="White"
+             Text="2016"
+             BackgroundColor="#02075d"
+             Clicked="Pytanie_1_1_Clicked"/>
+            <Button
+             x:Name="Pytanie_1_2"
+             Margin="10,0,10,0"
+             TextColor="White"
+             Text="2018"
+             BackgroundColor="#02075d"
+             Clicked="Pytanie_1_2_Clicked"/>
+            <Button
+             x:Name="Pytanie_1_3"
+             Margin="10,0,10,0"
+             TextColor="White"
+             Text="2019"
+             BackgroundColor="#02075d"
+             Clicked="Pytanie_1_3_Clicked"/>
+            <Button
+             x:Name="Pytanie_1_4"
+             Margin="10,0,10,0"
+             TextColor="White"
+             Text="2017"
+             BackgroundColor="#02075d"
+             Clicked="Pytanie_1_4_Clicked"/>
+            <Label
+             FontAttributes="Bold"
+             Padding="0,10,0,0"
+             Text="Instrukcja"
+             HorizontalTextAlignment="Center"
+             FontSize="14"/>
+            <Label
+             Text="Przed Tobą 10 pytań związanych z miejscami w Gminie Trzebownisko."
+             HorizontalTextAlignment="Center"/>
+            <Label
+             Text="Po udzieleniu odpowiedzi zostaniesz przeniesiony do kolejnego pytania. Kolor wskazuje czy odpowiedź była poprawna."
+             HorizontalTextAlignment="Center"/>
+            <Label
+             Text="Na końcu zobaczysz uzyskany wynik. Powodzenia!"
+             Margin="0,0,0,10"
+             HorizontalTextAlignment="Center"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

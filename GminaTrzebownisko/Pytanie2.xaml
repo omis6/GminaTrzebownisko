@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GminaTrzebownisko.Pytanie2">
+    <ContentPage.Content>
+        <StackLayout Margin="15"
+                 VerticalOptions="Center">
+            <Label
+             Margin="0,0,0,5"
+             FontSize="20"
+             Padding="0,0,0,5"               
+             Text="Pałac Lubomirskich w Łące"
+             HorizontalTextAlignment="Center"
+             FontAttributes="Bold"/>
+            <Image
+             x:Name="lak"
+             Aspect="AspectFill"
+             HorizontalOptions="EndAndExpand"/>
+            <Label
+             Text="Autor: DronTrzebownisko.pl"
+             HorizontalTextAlignment="Center"/>
+            <Label
+             Margin="0,5,0,0"
+             Text="Pytanie 1"
+             FontAttributes="Bold"
+             FontSize="23"
+             HorizontalTextAlignment="Center"/>
+            <Label
+             FontSize="17"
+             Margin="0,2,0,5"
+             Text="Co znajdowało się w pałacu w 1954 roku?"
+             HorizontalTextAlignment="Center"/>
+            <Button
+             x:Name="Pytanie_2_1"
+             Margin="10,0,10,0"
+             TextColor="White"
+             Text="Letnia rezydencja Potockich"
+             BackgroundColor="#02075d"
+             Clicked="Pytanie_2_1_Clicked"/>
+            <Button
+             x:Name="Pytanie_2_2"
+             Margin="10,0,10,0"
+             TextColor="White"
+             Text="Zakład dla upośledzonych umysłowo"
+             BackgroundColor="#02075d"
+             Clicked="Pytanie_2_2_Clicked"/>
+            <Button
+             x:Name="Pytanie_2_3"
+             Margin="10,0,10,0"
+             TextColor="White"
+             Text="Dom pomocy społecznej"
+             BackgroundColor="#02075d"
+             Clicked="Pytanie_2_3_Clicked"/>
+            <Button
+             x:Name="Pytanie_2_4"
+             Margin="10,0,10,0"
+             TextColor="White"
+             Text="Placówka Opiekuńczo-Wychowawcza"
+             BackgroundColor="#02075d"
+             Clicked="Pytanie_2_4_Clicked"/>
+            <Label
+             FontAttributes="Bold"
+             Padding="0,10,0,0"
+             Text="Historia"
+             HorizontalTextAlignment="Center"
+             FontSize="14"/>
+            <Label
+             Text="Barokowy pałac Lubomirskich został wzniesiony na przełomie XVII i XVIII w.,"
+             HorizontalTextAlignment="Center"/>
+            <Label
+             Text="przebudowany został w latach 1763-1776, obecnie jest to dom opieki społecznej."
+             HorizontalTextAlignment="Center"/>
+            <Label
+             Text="W parku zobaczymy ślady obwarowań, spichlerz, stajnie i bramę z XVIII w."
+             Margin="0,0,0,10"
+             HorizontalTextAlignment="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

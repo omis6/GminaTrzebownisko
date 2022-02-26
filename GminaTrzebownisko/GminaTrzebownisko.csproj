@@ -1,0 +1,94 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Zdjecia\kladka.jpg" />
+    <None Remove="Zdjecia\lodowisko.jpg" />
+    <None Remove="Zdjecia\logo.png" />
+    <None Remove="Zdjecia\lotnisko.jpg" />
+    <None Remove="Zdjecia\most.jpg" />
+    <None Remove="Zdjecia\palac.JPG" />
+    <None Remove="Zdjecia\rzeszow.jpg" />
+    <None Remove="Zdjecia\staryspich.jpg" />
+    <None Remove="Zdjecia\strona.jpg" />
+    <None Remove="Zdjecia\zaczern_kos.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Zdjecia\kladka.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Zdjecia\lodowisko.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Zdjecia\logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Zdjecia\lotnisko.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Zdjecia\most.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Zdjecia\palac.JPG">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Zdjecia\rzeszow.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Zdjecia\staryspich.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Zdjecia\strona.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Zdjecia\zaczern_kos.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Pytanie1.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Pytanie10.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Pytanie2.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Pytanie3.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Pytanie4.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Pytanie5.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Pytanie6.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Pytanie7.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Pytanie8.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GminaTrzebownisko.Pytanie10">
+    <ContentPage.Content>
+        <StackLayout>
+           
+            <Label 
+                FontSize="20"
+                FontAttributes="Bold"
+                HorizontalTextAlignment="Center"
+                x:Name="Wyswietl"
+                Margin="0,40,0,0"/>
+            <Label
+                HorizontalTextAlignment="Center"
+                FontSize="20"
+                x:Name="Wynik"/>
+            <Label
+                Margin="0,20,0,0"
+                Text="Ostatnie wyniki"
+                HorizontalTextAlignment="Center"
+                FontSize="20"/>
+            <Label 
+                Margin="0,5,0,0"
+                FontSize="18"
+                FontAttributes="Bold"
+                HorizontalTextAlignment="Center"
+                Text="1. Andrzej"
+                />
+            <Label
+                HorizontalTextAlignment="Center"
+                FontSize="14"
+                Text="5 punktów"/>
+            <Label 
+                Margin="0,5,0,0"
+                FontSize="18"
+                FontAttributes="Bold"
+                HorizontalTextAlignment="Center"
+                Text="2. Filip"
+                />
+            <Label
+                HorizontalTextAlignment="Center"
+                FontSize="14"
+                Text="2 punktów"/>
+            <Label 
+                Margin="0,5,0,0"
+                FontSize="18"
+                FontAttributes="Bold"
+                HorizontalTextAlignment="Center"
+                Text="3. Grzesiek"
+                />
+            <Label
+                HorizontalTextAlignment="Center"
+                FontSize="14"
+                Text="0 punktów"/>
+            <Label
+            FontAttributes="Bold" 
+            FontSize="20"
+            Text="Ile wiesz o Rzeszowie?"
+            HorizontalTextAlignment="Center"
+            Margin="0,0,0,0"
+            Padding="0,20,0,0"/>
+            <Image
+             Margin="10,0,10,0"
+             x:Name="rzeszow"
+             Aspect="AspectFill"
+             HorizontalOptions="EndAndExpand"/>
+            <Button
+             Margin="10,0,10,40"
+             TextColor="White"
+             Text="Przejdź do gry!"
+             BackgroundColor="#3F84E5"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

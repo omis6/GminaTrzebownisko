@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GminaTrzebownisko.Pytanie8">
+    <ContentPage.Content>
+        <StackLayout Margin="15"
+                 VerticalOptions="Center">
+            <Label
+             Margin="0,0,0,5"
+             FontSize="20"
+             Padding="0,0,0,5"               
+             Text="Kładka na Wisłoku"
+             HorizontalTextAlignment="Center"
+             FontAttributes="Bold"/>
+            <Image
+             x:Name="kl"
+             Aspect="AspectFill"
+             HorizontalOptions="EndAndExpand"/>
+            <Label
+             Text="Autor: DronTrzebownisko.pl"
+             HorizontalTextAlignment="Center"/>
+            <Label
+             Margin="0,5,0,0"
+             Text="Pytanie 7"
+             FontAttributes="Bold"
+             FontSize="23"
+             HorizontalTextAlignment="Center"/>
+            <Label
+             FontSize="17"
+             Margin="0,2,0,5"
+             Text="Jakie miejscowości łączy kładka ze zdjęcia?"
+             HorizontalTextAlignment="Center"/>
+            <Button
+             x:Name="Pytanie_8_1"
+             Margin="10,0,10,0"
+             TextColor="White"
+             Text="Stobierna - Jasionka"
+             BackgroundColor="#02075d"
+             Clicked="Pytanie_8_1_Clicked"/>
+            <Button
+             x:Name="Pytanie_8_2"
+             Margin="10,0,10,0"
+             TextColor="White"
+             Text="Nowa Wieś - Trzebownisko"
+             BackgroundColor="#02075d"
+             Clicked="Pytanie_8_2_Clicked"/>
+            <Button
+             x:Name="Pytanie_8_3"
+             Margin="10,0,10,0"
+             TextColor="White"
+             Text="Nowa Wieś - Terliczka"
+             BackgroundColor="#02075d"
+             Clicked="Pytanie_8_3_Clicked"/>
+            <Button
+             x:Name="Pytanie_8_4"
+             Margin="10,0,10,0"
+             TextColor="White"
+             Text="Tajęcina - Jasionka"
+             BackgroundColor="#02075d"
+             Clicked="Pytanie_8_4_Clicked"/>
+            <Label
+             FontAttributes="Bold"
+             Padding="0,10,0,0"
+             Text="                 "
+             HorizontalTextAlignment="Center"
+             FontSize="14"/>
+            <Label
+             Text="                                "
+             HorizontalTextAlignment="Center"/>
+            <Label
+             Text="                                        "
+             HorizontalTextAlignment="Center"/>
+            <Label
+             Text= "                   "
+             Margin="0,0,0,10"
+             HorizontalTextAlignment="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

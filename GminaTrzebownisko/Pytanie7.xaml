@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GminaTrzebownisko.Pytanie7">
+    <ContentPage.Content>
+        <StackLayout Margin="15"
+                 VerticalOptions="Center">
+            <Label
+             Margin="0,0,0,5"
+             FontSize="20"
+             Padding="0,0,0,5"               
+             Text="Kościół w Zaczerniu"
+             HorizontalTextAlignment="Center"
+             FontAttributes="Bold"/>
+            <Image
+             x:Name="zacz"
+             Aspect="AspectFill"
+             HorizontalOptions="EndAndExpand"/>
+            <Label
+             Text="Autor: DronTrzebownisko.pl"
+             HorizontalTextAlignment="Center"/>
+            <Label
+             Margin="0,5,0,0"
+             Text="Pytanie 6"
+             FontAttributes="Bold"
+             FontSize="23"
+             HorizontalTextAlignment="Center"/>
+            <Label
+             FontSize="17"
+             Margin="0,2,0,5"
+             Text="Pod jakim wezwaniem jest kościół na obrazku?"
+             HorizontalTextAlignment="Center"/>
+            <Button
+             x:Name="Pytanie_7_1"
+             Margin="10,0,10,0"
+             TextColor="White"
+             Text="Parafia pw. Narodzenia NMP"
+             BackgroundColor="#02075d"
+             Clicked="Pytanie_7_1_Clicked"/>
+            <Button
+             x:Name="Pytanie_7_2"
+             Margin="10,0,10,0"
+             TextColor="White"
+             Text="Kościół św. Karola Boromeusza"
+             BackgroundColor="#02075d"
+             Clicked="Pytanie_7_2_Clicked"/>
+            <Button
+             x:Name="Pytanie_7_3"
+             Margin="10,0,10,0"
+             TextColor="White"
+             Text="Parafia św. Brata Alberta"
+             BackgroundColor="#02075d"
+             Clicked="Pytanie_7_3_Clicked"/>
+            <Button
+             x:Name="Pytanie_7_4"
+             Margin="10,0,10,0"
+             TextColor="White"
+             Text="Kościół św. Wojciecha"
+             BackgroundColor="#02075d"
+             Clicked="Pytanie_7_4_Clicked"/>
+            <Label
+             FontAttributes="Bold"
+             Padding="0,10,0,0"
+             Text="Historia"
+             HorizontalTextAlignment="Center"
+             FontSize="14"/>
+            <Label
+             Text="Parafia została erygowana 29 czerwca 1439 roku przez biskupa krakowskiego Jana Rzeszowskiego."
+             HorizontalTextAlignment="Center"/>
+            <Label
+             Text="Obecny kościół parafialny został zbudowany w latach 
+                1803–1806 z fundacji Jana Aleksandra Morskiego."
+             HorizontalTextAlignment="Center"/>
+            <Label
+             Text= "                   "
+             Margin="0,0,0,10"
+             HorizontalTextAlignment="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

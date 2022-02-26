@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GminaTrzebownisko.Pytanie3">
+    <ContentPage.Content>
+        <StackLayout Margin="15"
+                 VerticalOptions="Center">
+            <Label
+             Margin="0,0,0,5"
+             FontSize="20"
+             Padding="0,0,0,5"               
+             Text="Lotnisko Rzeszów - Jasionka"
+             HorizontalTextAlignment="Center"
+             FontAttributes="Bold"/>
+            <Image
+             x:Name="jas"
+             Aspect="AspectFill"
+             HorizontalOptions="EndAndExpand"/>
+            <Label
+             Text="Autor: DronTrzebownisko.pl"
+             HorizontalTextAlignment="Center"/>
+            <Label
+             Margin="0,5,0,0"
+             Text="Pytanie 2"
+             FontAttributes="Bold"
+             FontSize="23"
+             HorizontalTextAlignment="Center"/>
+            <Label
+             FontSize="17"
+             Margin="0,2,0,5"
+             Text="W którym roku Jan Paweł II wylądował na lotnisku w Jasionce?"
+             HorizontalTextAlignment="Center"/>
+            <Button
+             x:Name="Pytanie_3_1"
+             Margin="10,0,10,0"
+             TextColor="White"
+             Text="1991"
+             BackgroundColor="#02075d"
+             Clicked="Pytanie_3_1_Clicked"/>
+            <Button
+             x:Name="Pytanie_3_2"
+             Margin="10,0,10,0"
+             TextColor="White"
+             Text="1994"
+             BackgroundColor="#02075d"
+             Clicked="Pytanie_3_2_Clicked"/>
+            <Button
+             x:Name="Pytanie_3_3"
+             Margin="10,0,10,0"
+             TextColor="White"
+             Text="1995"
+             BackgroundColor="#02075d"
+             Clicked="Pytanie_3_3_Clicked"/>
+            <Button
+             x:Name="Pytanie_3_4"
+             Margin="10,0,10,0"
+             TextColor="White"
+             Text="1889"
+             BackgroundColor="#02075d"
+             Clicked="Pytanie_3_4_Clicked"/>
+            <Label
+             FontAttributes="Bold"
+             Padding="0,10,0,0"
+             Text="Historia"
+             HorizontalTextAlignment="Center"
+             FontSize="14"/>
+            <Label
+             Text="Początki istnienia rzeszowskiego lotniska sięgają lat okupacji hitlerowskiej."
+             HorizontalTextAlignment="Center"/>
+            <Label
+             Text="W 1940 roku dla celów wojennych w Jasionce została wybudowana droga startowa o długości 1200 m "
+             HorizontalTextAlignment="Center"/>
+            <Label
+             Text= "Niemcy opuszczając lotnisko, dokonali jego kompletnego zniszczenia."
+             Margin="0,0,0,10"
+             HorizontalTextAlignment="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
